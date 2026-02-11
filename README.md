@@ -2,7 +2,7 @@
 
 This project builds a recommendation engine to **promote slow‑moving / dead‑stock inventory items** by recommending them together with better‑selling products from similar product groups.
 
-The goal is to help retail / distribution companies reduce dead stock and improve inventory turnover using data‑driven recommendations. [web:131][web:128]
+The goal is to help retail / distribution companies reduce dead stock and improve inventory turnover using data‑driven recommendations.
 
 ---
 
@@ -16,7 +16,7 @@ The goal is to help retail / distribution companies reduce dead stock and improv
 
 From these sources we derive:
 - A list of **dead‑stock items** (low or zero sales but positive stock).  
-- A list of **active items** to be used as “carrier products” in recommendations. [web:131]
+- A list of **active items** to be used as “carrier products” in recommendations.
 
 ---
 
@@ -31,7 +31,7 @@ Key steps:
   - Brand or supplier.  
   - Historical sales velocity / stock coverage.
 
-Product grouping allows the recommender to suggest dead‑stock items that are **similar and relevant** to the active item being sold. [web:131][web:128]
+Product grouping allows the recommender to suggest dead‑stock items that are **similar and relevant** to the active item being sold.
 
 ---
 
@@ -50,7 +50,7 @@ The recommender works in two main steps:
      - Optional historical co‑sales signals.  
    - Return Top‑K dead‑stock items as recommendations for each active item.
 
-The logic is implemented in the notebook `recommend-system-final-v2.ipynb` using Python and `pandas`. [web:131]
+The logic is implemented in the notebook `recommend-system-final-v2.ipynb` using Python and `pandas`.
 
 ---
 
@@ -65,7 +65,7 @@ Typical outputs of the pipeline:
 These outputs can be fed into:
 - POS systems (cross‑sell pop‑ups).  
 - BI dashboards (Power BI / Qlik).  
-- Campaign / promotion engines. [web:131]
+- Campaign / promotion engines.
 
 ---
 
@@ -78,7 +78,7 @@ These outputs can be fed into:
 - load and clean data,  
 - mark dead‑stock items,  
 - build product groups,  
-- generate the recommendation table. [web:131]
+- generate the recommendation table. 
 
 ---
 
