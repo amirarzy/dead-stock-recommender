@@ -86,4 +86,4 @@ These outputs can be fed into:
 
 - Add **collaborative filtering** or association‑rule mining (market‑basket analysis) on transaction data.  
 - Deploy the recommender behind an API or integrate it directly with a BI dashboard.  
-- Experiment with embedding‑based similarity (e.g. product2vec) for more nuanced recommendations. [web:131]
+- Experiment with embedding‑based similarity (e.g. product2vec) for more nuanced recommendations.
